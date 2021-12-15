@@ -4,9 +4,9 @@
 __metadata:
   version: 5
 
-"@gatsbylabs/eslint-config@workspace:.":
+"@gatsbylabs/eslint-config-gatsby@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@gatsbylabs/eslint-config@workspace:."
+  resolution: "@gatsbylabs/eslint-config-gatsby@workspace:."
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
