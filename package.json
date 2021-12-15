@@ -3,6 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "contributors": [
+    {
+      "name": "Enoch Chau",
+      "email": "enoch@gatsby.events",
+      "url": "https://github.com/ec965"
+    }
+  ],
+  "description": "Gatsb Labs eslint config",
+  "homepage": "https://github.com/gatsbylabs/eslint-config-gatsby",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
@@ -17,7 +30,28 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.23.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-unused-imports": "^1.1.1"
+    "eslint-plugin-unused-imports": "^1.1.1",
+    "typescript": "^4.5.4"
   },
-  "packageManager": "yarn@3.1.1"
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-autofix": "^1.0.4",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-only-warn": "^1.0.2",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unused-imports": "^1.1.1",
+    "typescript": "^4.5.4"
+  },
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "lint": "eslint ."
+  }
 }
